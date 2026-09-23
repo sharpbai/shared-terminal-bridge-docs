@@ -161,4 +161,11 @@ CLI 优先的人机 TUI 协作
 - **关注 ChatGPT 远程接入**：重点阅读第 8、9、10 篇。
 - **准备参与后续演进**：先读第 10 篇，再按其中的路线图回看相关专题。
 
+## 关联设计与验证资料
+
+- [人与 Codex 共用终端的交互式运维架构260920](references/interactive-ops-architecture-260920.md)
+- [Shared Terminal Bridge 迭代史：从 Ctrl+C PoC 到 API v9](references/stb-iteration-history-api-v9.md)
+- [Shared Terminal Bridge：人与 Codex 共用 tmux 的交互式运维架构与实测](references/stb-codex-tmux-architecture-and-validation.md)
+- [STB-RDC：ChatGPT 共享终端适配层 v0.1 及验收260922](references/stb-rdc-v0.1-acceptance-260922.md)
+
 > 本目录是系列的稳定入口。后续新增文章时，应继续在这里补充阶段、阅读顺序与主线关系；原有十篇保留为阶段性历史，不覆盖其当时的设计结论。

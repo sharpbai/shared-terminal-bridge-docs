@@ -204,7 +204,7 @@ Shared Terminal Bridge 最初解决的并不是自动化能力，而是系统边
 
 本系列重新建立独立文章，以下早期文档保持原样，作为设计与迭代历史保留：
 
-- [Notion 页面](https://app.notion.com/p/3e147b2dd1458175b152cfd6e8daf43f)
-- [Notion 页面](https://app.notion.com/p/3e247b2dd14581589c65d3c6db70a317)
-- [Notion 页面](https://app.notion.com/p/3e247b2dd14581fbbf09f2360840ab87)
-- [Notion 页面](https://app.notion.com/p/3e347b2dd14581ceb14cec4de8f8686a)
+- [人与 Codex 共用终端的交互式运维架构260920](../references/interactive-ops-architecture-260920.md)
+- [Shared Terminal Bridge 迭代史：从 Ctrl+C PoC 到 API v9](../references/stb-iteration-history-api-v9.md)
+- [Shared Terminal Bridge：人与 Codex 共用 tmux 的交互式运维架构与实测](../references/stb-codex-tmux-architecture-and-validation.md)
+- [STB-RDC：ChatGPT 共享终端适配层 v0.1 及验收260922](../references/stb-rdc-v0.1-acceptance-260922.md)

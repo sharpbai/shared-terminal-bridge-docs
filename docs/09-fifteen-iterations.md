@@ -3,7 +3,7 @@
 > **系列导航**：[系列目录](../README.md) · 上一篇：[Shared Terminal Bridge（八）：从 Codex MCP 到 ChatGPT STB-RDC](08-codex-mcp-to-chatgpt-stb-rdc.md) · 下一篇：[Shared Terminal Bridge（十）：当前架构、性能账本与下一阶段路线图](10-current-architecture-roadmap.md)
 > **系列定位**：本文是《Shared Terminal Bridge：人与 AI 共用真实终端的演进记录》第 9 篇。上一篇讲清了 Codex MCP 与 ChatGPT STB-RDC 如何汇入同一个安全内核；这一篇回到工程过程，复盘 STB 从第一版 PoC 到第 15 轮真实运维验证的收敛路径。重点不是版本清单，而是每个问题怎样迫使架构改变，以及哪些变化真的改善了耗时、Token 和人的注意力成本。
 上一篇：[Shared Terminal Bridge（八）：从 Codex MCP 到 ChatGPT STB-RDC](08-codex-mcp-to-chatgpt-stb-rdc.md)
-历史原始记录：[Notion 页面](https://app.notion.com/p/3e247b2dd14581589c65d3c6db70a317)
+历史原始记录：[Shared Terminal Bridge 迭代史：从 Ctrl+C PoC 到 API v9](../references/stb-iteration-history-api-v9.md)
 
 ## 两条演进线：安全正确，与交互高效
 

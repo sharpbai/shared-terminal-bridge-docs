@@ -321,5 +321,5 @@ read → no_change → 模型决定再等 → read → no_change
 
 本系列使用以下原始验证和实操记录作为历史依据，原文继续保留：
 
-- [Notion 页面](https://app.notion.com/p/3e147b2dd1458175b152cfd6e8daf43f)
-- [Notion 页面](https://app.notion.com/p/3e247b2dd14581589c65d3c6db70a317)
+- [人与 Codex 共用终端的交互式运维架构260920](../references/interactive-ops-architecture-260920.md)
+- [Shared Terminal Bridge 迭代史：从 Ctrl+C PoC 到 API v9](../references/stb-iteration-history-api-v9.md)
