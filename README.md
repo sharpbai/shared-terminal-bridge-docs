@@ -1,5 +1,7 @@
 # Shared Terminal Bridge：系列导览与阅读目录
 
+> **项目导航** · [Shared Terminal Bridge](https://github.com/sharpbai/shared-terminal-bridge)（核心 Bridge） · [STB-RDC](https://github.com/sharpbai/shared-terminal-bridge-rdc)（ChatGPT/RDC 远程适配器） · **[系列文档](https://github.com/sharpbai/shared-terminal-bridge-docs)**（设计与演进记录）
+
 > **系列导览**：本页是《Shared Terminal Bridge：人与 AI 共用真实终端的演进记录》的总目录。十篇文章按照“系统边界 → 人工接管 → 本地安全 → 上下文与等待 → 跨环境接入 → 实操收敛”的顺序，记录 STB 从问题原型走向可用系统的全过程。
 
 ## 项目背景：为什么要做 Shared Terminal Bridge
