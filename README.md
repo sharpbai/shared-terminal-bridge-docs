@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://github.com/sharpbai/shared-terminal-bridge">STB Core</a> · <a href="https://github.com/sharpbai/shared-terminal-bridge-rdc">RDC Adapter</a> · <a href="https://github.com/sharpbai/shared-terminal-bridge-tools">Tools</a> · <a href="https://github.com/sharpbai/shared-terminal-bridge-docs"><strong>Documentation</strong></a></p>
 
-> **系列导览**：本页是《Shared Terminal Bridge：人与 AI 共用真实终端的演进记录》的总目录。十篇文章按照“系统边界 → 人工接管 → 本地安全 → 上下文与等待 → 跨环境接入 → 实操收敛”的顺序，记录 STB 从问题原型走向可用系统的全过程。
+> **系列导览**：本页是《Shared Terminal Bridge：人与 AI 共用真实终端的演进记录》的总目录。系列目前共十一篇。前十篇按照“系统边界 → 人工接管 → 本地安全 → 上下文与等待 → 跨环境接入 → 实操收敛”的顺序，记录 STB 从问题原型走向可用系统；第十一篇继续记录功能稳定之后，如何通过人与 Agent 的交互式重构降低开发维护成本。
 
 ## 项目背景：为什么要做 Shared Terminal Bridge
 
@@ -115,7 +115,23 @@ Shared Terminal Bridge（STB）不重新开发一个 AI Terminal，而是让 Hum
 
 ---
 
-## 十篇文章之间的主线
+## 第四阶段：人可读与 Agent 低成本维护
+
+### 11 · [Shared Terminal Bridge（十一）：与 Agent 一起重构，从拆大文件到低成本维护](docs/11-interactive-refactoring.md)
+
+记录一次不以功能变化为目标的交互式重构：从“拆小仍然不知道去哪里改”的反馈出发，逐步形成按职责组织的代码、显式依赖、小入口导航、分层测试、当前文档与历史文档分离，以及 CI 维护边界。
+
+**关键词**：交互式重构、人可读、Agent 低成本维护、职责边界、文档治理、CI。
+
+**承上启下**：从第十篇的可用架构快照，转向如何让陌生人和模型低成本理解、修改与验证同一套系统。结构改善有可核对证据，Token 收益尚需固定维护任务测量。
+
+### 路线 D：关注人与 Agent 协作开发
+
+建议先阅读 **10 → 11**：先了解架构与安全不变量，再看如何在保持功能边界的前提下改善代码和文档的维护方式。
+
+---
+
+## 系列文章之间的主线
 
 ```text
 问题边界
@@ -139,6 +155,8 @@ CLI 优先的人机 TUI 协作
 十五轮实操回归与架构收敛
   ↓
 当前架构快照与下一阶段路线
+  ↓
+交互式重构：人可读与 Agent 低成本维护
 
 ```
 
@@ -161,7 +179,7 @@ CLI 优先的人机 TUI 协作
 - **准备实现相似系统**：按第 1–6 篇顺序阅读。
 - **关注 Token 与交互效率**：重点阅读第 5、6、7、9 篇。
 - **关注 ChatGPT 远程接入**：重点阅读第 8、9、10 篇。
-- **准备参与后续演进**：先读第 10 篇，再按其中的路线图回看相关专题。
+- **准备参与后续演进**：先读第 10、11 篇，理解架构边界与维护方式，再回看相关专题。
 
 ## 关联设计与验证资料
 
