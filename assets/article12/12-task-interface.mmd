@@ -1,0 +1,14 @@
+flowchart TB
+  subgraph OLD["过去：模型协调机械步骤"]
+    direction LR
+    A["理解说明"] --> B["申请 lease"] --> C["提交命令"] --> D["等待 job"] --> E["整理结果"]
+  end
+  subgraph NEW["现在：模型表达任务，Core 管理执行"]
+    direction LR
+    F["必要观察"] --> G["run：命令 + 逻辑 ID"] --> H["Core：授权 / 去重 / 提交 / 等待"] --> I["job：状态 + 有界证据"]
+  end
+  OLD --> NEW
+  classDef model fill:#e6f0ff,stroke:#4876ab,color:#15283d
+  classDef core fill:#e6f5eb,stroke:#42835a,color:#193a26
+  class A,B,C,D,E,F,G,I model
+  class H core

@@ -1,0 +1,15 @@
+flowchart TD
+  A["Core 收到新的明确 run"] --> B["内部授权与去重校验"]
+  B --> C["命令正在执行"]
+  C -->|"输出：提示符返回"| D["FINISHED：保留输出证据"]
+  C -->|"人工 Ctrl+C"| E["取消当前执行链"]
+  E --> F["旧 ID 重试：只观察，不重放"]
+  E --> G["后到的新明确 run"]
+  G --> B
+  D --> H["空闲 Ctrl+C：不撤销已结束任务"]
+  B -. "高风险仍需明确批准" .-> R["批准边界"]
+  C -. "断流或缺序" .-> X["停止猜测，等待检查"]
+  classDef safe fill:#e6f5eb,stroke:#42835a,color:#193a26
+  classDef stop fill:#fff0e6,stroke:#b57545,color:#4d2b15
+  class B,C,D,H safe
+  class E,F,R,X stop
